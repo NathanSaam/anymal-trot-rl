@@ -1,0 +1,15 @@
+{
+  "command": "train",
+  "model": "anybotics_anymal_c/scene.xml",
+  "log_dir": "anymal_gait_logs",
+  "total_timesteps": 10000000,
+  "num_envs": 8,
+  "n_steps": 2048,
+  "batch_size": 256,
+  "n_epochs": 5,
+  "lr": 0.0003,
+  "log_every": 10,
+  "seed": 42,
+  "gait": "trot",
+  "env_version": "contact_gait_v2"
+}

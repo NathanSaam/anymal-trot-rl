@@ -1,0 +1,5 @@
+# Generated interpreter, Finder, and simulator files.
+__pycache__/
+*.py[cod]
+.DS_Store
+MUJOCO_LOG.TXT
